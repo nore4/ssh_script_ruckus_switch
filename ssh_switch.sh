@@ -34,12 +34,7 @@ ssh_function () {
 EOF
 }
 
-
-#docs_func () {
-#        sed 's/[[:space:]]\+/,/g' my_log.log > logging.csv
-#        ssconvert logging.csv logging.xlsx
-#}
-
 # call the functions
 ssh_function
-#docs_func
+
+exit 0
